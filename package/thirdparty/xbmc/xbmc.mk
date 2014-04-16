@@ -169,7 +169,7 @@ define XBMC_INSTALL_SPLASHS
   cp -f $(XBMC_STARTING_FB) $(TARGET_DIR)/usr/share/splash/starting.fb.lzo
   cp -f $(XBMC_STOPPING_FB) $(TARGET_DIR)/usr/share/splash/stopping.fb.lzo
   cp -f $(XBMC_COMPLETE_FB) $(TARGET_DIR)/usr/share/splash/complete.fb.lzo
-  cp -f $(XBMC_SPLASH_FILE) $(TARGET_DIR)/usr/share/xbmc/media/Splash.png
+#  cp -f $(XBMC_SPLASH_FILE) $(TARGET_DIR)/usr/share/xbmc/media/Splash.png
 endef
 
 define XBMC_CLEAN_UNUSED_ADDONS
