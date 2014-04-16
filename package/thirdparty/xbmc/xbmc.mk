@@ -4,9 +4,9 @@
 #
 #################################################################################
 
-XBMC_VERSION = dcaa33f394972a8e4763b34bd166cadec7825d5d
+XBMC_VERSION = f4d660298675bcc0341bbfd7fd56085b88e307c6
 XBMC_SITE_METHOD = git
-XBMC_SITE = git://github.com/CoreTech-Development/xbmc.git
+XBMC_SITE = https://github.com/codesnake/xbmc.git
 XBMC_INSTALL_STAGING = YES
 XBMC_INSTALL_TARGET = YES
 
@@ -55,7 +55,7 @@ XBMC_DEPENDENCIES += flac libmad libmpeg2 libogg \
   libmicrohttpd libssh2 boost fribidi ncurses pcre libnfs afpfs-ng \
   libplist libshairport libbluray libcec \
   readline expat libxml2 yajl samba libass opengl libusb-compat \
-  avahi udev tinyxml taglib18 libssh
+  avahi udev tinyxml taglib18 libssh libxslt
 
 ifeq ($(BR2_ARM_AMLOGIC),y)
 XBMC_DEPENDENCIES += libamplayer
